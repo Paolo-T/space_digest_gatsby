@@ -3,8 +3,8 @@ import useFetch from "../../hooks/useFetch";
 import Loader from "../base/Loader";
 import Moment from "react-moment";
 import chunkArray from "../../utils/chunkArray";
-import Pagination from "../base/pagination";
-import Photos from "./photos";
+import Pagination from "../base/Pagination";
+import Photos from "./Photos";
 
 const PHOTOS_PER_PAGE = 15;
 const START_ON_PAGE_NUMBER = 1;
