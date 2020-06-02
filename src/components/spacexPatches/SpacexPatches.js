@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { SpacexLaunchesContext } from "../../context/SpacexLaunchesContext";
 import Loader from "../base/Loader";
 import Pagination from "../base/Pagination";
-import Patches from "./patches";
+import Patches from "./Patches";
 import chunkArray from "../../utils/chunkArray";
 
 const START_ON_PAGE_NUMBER = 1;

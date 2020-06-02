@@ -1,6 +1,6 @@
 import React from "react";
 import VideoFeatured from "./base/VideoFeatured";
-import TransitionInview from "./transitionInview";
+import TransitionInview from "./TransitionInview";
 import logo from "../images/logo.svg";
 
 function Header() {

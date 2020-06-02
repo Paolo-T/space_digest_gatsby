@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import SEO from "../components/seo";
 import { useSpring, animated } from "react-spring";
-import RoverPhotos from "../components/roverPhotos/roverPhotos";
+import RoverPhotos from "../components/roverPhotos/RoverPhotos";
 import nasa_logo from "../images/nasa_logo.svg";
-import FiftyFifty from "../components/base/fiftyFifty";
-import TransitionPageIn from "../components/transitionPageIn";
-import TransitionInview from "../components/transitionInview";
+import TransitionPageIn from "../components/TransitionPageIn";
+import TransitionInview from "../components/TransitionInview";
 // import curiosityRover from "../images/curiosityRover.jpg";
 // import MarsWeather from "../../components/MarsWeather";
 

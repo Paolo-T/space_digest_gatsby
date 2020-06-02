@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
-import Navigation from "../components/base/navigation";
-import Footer from "../components/base/footer";
+import Navigation from "../components/base/Navigation";
+import Footer from "../components/base/Footer";
 import { SpacexLaunchesProvider } from "../context/SpacexLaunchesContext";
 
 function Layout({ children }) {
