@@ -12,8 +12,8 @@ import TransitionInview from "../components/transitionInview";
 
 function Nasa() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } }); //Fade animation
-    const [selectRover, setSelectRover] = useState("curiosity");
-    const [selectCamera, setSelectCamera] = useState("NAVCAM");
+    // const [selectRover, setSelectRover] = useState("curiosity");
+    // const [selectCamera, setSelectCamera] = useState("NAVCAM");
 
     return (
         <Layout>
