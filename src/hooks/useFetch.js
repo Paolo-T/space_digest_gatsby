@@ -24,7 +24,7 @@ const useFetch = (url) => {
             }
         };
         fetchData();
-        console.log(" -- Cleaned useFetch subscriptions --");
+        console.log(" -- Cleaned up --");
         return () => abortController.abort(); // Abort both fetches on unmount
     }, []);
 
