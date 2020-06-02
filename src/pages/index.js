@@ -54,7 +54,7 @@ function IndexPage() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="bg-primary py-8 md:py-32 md:px-40 text-left mx-auto mt-6 mb-16 md:mb-0 cursor-pointer">
+                        <div className="bg-primary py-8 md:py-32 md:px-40 text-center mx-auto mt-6 mb-16 md:mb-0 cursor-pointer">
                             <Link to="daily">
                                 <h2 className="w-10/12 md:w-4/12 mx-auto">
                                     Daily media
