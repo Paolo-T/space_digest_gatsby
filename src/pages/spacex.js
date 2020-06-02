@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SpacexPatches from "../components/SpacexPatches/SpacexPatches";
 import spacex_logo from "../images/spacex_logo.svg";
@@ -8,7 +7,7 @@ import TransitionInview from "../components/TransitionInview";
 
 function Spacex() {
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -66,7 +65,7 @@ function Spacex() {
                     </TransitionInview>
                 </div>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 

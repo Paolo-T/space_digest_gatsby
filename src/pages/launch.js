@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import useFetch from "../hooks/useFetch";
 import Loader from "../components/base/Loader";
@@ -32,7 +31,7 @@ function Launch(props) {
     // console.log("PageData", pageData);
 
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -224,7 +223,7 @@ function Launch(props) {
                     ) : null}
                 </div>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 

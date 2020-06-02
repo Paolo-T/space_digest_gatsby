@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { useSpring, animated } from "react-spring";
 import RoverPhotos from "../components/roverPhotos/roverPhotos";
@@ -14,7 +13,7 @@ function Nasa() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } }); //Fade animation
 
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -82,7 +81,7 @@ function Nasa() {
                     </div>
                 </div>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 

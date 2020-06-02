@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PhotoCollection from "../components/PhotoCollection/PhotoCollection";
 import { useSpring, animated } from "react-spring";
@@ -10,7 +9,7 @@ function Page__photosPage() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
 
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -50,7 +49,7 @@ function Page__photosPage() {
                     </div>
                 </div>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 

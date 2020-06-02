@@ -1,11 +1,10 @@
 import React from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
 
 function NotFoundPage() {
     return (
-        <Layout>
+        <>
             <SEO title="404: Not found" />
             <div className="container mx-auto mb-32">
                 <h1 className="md:w-1/3 md:mt-40 text-5xl md:text-7xl mt-32 py-5 md:ml-32 text-left rounded-md">
@@ -19,7 +18,7 @@ function NotFoundPage() {
                     Back
                 </Link>
             </div>
-        </Layout>
+        </>
     );
 }
 

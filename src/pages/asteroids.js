@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Asteroids from "../components/Asteroids";
 import asteroid from "../images/asteroid.jpg";
@@ -12,7 +11,7 @@ function Page__asteroids() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
 
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -63,7 +62,7 @@ function Page__asteroids() {
                     <Asteroids />
                 </TransitionInview>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 

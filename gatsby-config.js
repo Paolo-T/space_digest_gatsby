@@ -11,17 +11,18 @@ module.exports = {
         author: ``,
     },
     plugins: [
+        `gatsby-plugin-layout`,
+        `gatsby-plugin-eslint`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-styled-components`,
+        `gatsby-plugin-postcss`,
+        `gatsby-plugin-sitemap`,
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 trackingId: "UA-80068675-2",
             },
         },
-        `gatsby-plugin-eslint`,
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-styled-components`,
-        `gatsby-plugin-postcss`,
-        `gatsby-plugin-sitemap`,
         {
             resolve: `gatsby-plugin-manifest`,
             options: {

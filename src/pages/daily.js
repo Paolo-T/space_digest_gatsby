@@ -2,7 +2,6 @@ import React from "react";
 import useFetch from "../hooks/useFetch";
 import VideoFeatured from "../components/base/VideoFeatured";
 import Loader from "../components/base/Loader";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
@@ -27,7 +26,7 @@ function Media() {
 
     if (mediaData.media_type !== "video") {
         return (
-            <Layout>
+            <>
                 <SEO
                     keywords={[
                         `Nasa`,
@@ -68,7 +67,7 @@ function Media() {
                     </TransitionInview>
                 </TransitionPageIn>
                 {/* !END of Media Image */}
-            </Layout>
+            </>
         );
     } else {
         return (

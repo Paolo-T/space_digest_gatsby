@@ -3,6 +3,7 @@ import logo from "../../images/logo.svg";
 import { Link } from "gatsby";
 
 function Navigation() {
+    console.log("Hey from Nav");
     return (
         <header className="w-full fixed bg-gray-100 md:bg-transparent z-10">
             <div className="w-10/12 md:container mx-auto flex justify-between py-4 md:pt-6 ">

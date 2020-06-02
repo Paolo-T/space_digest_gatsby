@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Hero from "../components/Hero";
 import FiftyFifty from "../components/base/FiftyFifty";
@@ -15,7 +14,7 @@ function IndexPage() {
     //Fade animation
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
     return (
-        <Layout>
+        <>
             <SEO
                 keywords={[
                     `Nasa`,
@@ -92,7 +91,7 @@ function IndexPage() {
                     </TransitionInview>
                 </div>
             </TransitionPageIn>
-        </Layout>
+        </>
     );
 }
 
