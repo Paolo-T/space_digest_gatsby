@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
+import { SpacexLaunchesContext } from "../context/SpacexLaunchesContext";
 import { Link } from "gatsby";
 import SEO from "../components/seo";
-import useFetch from "../hooks/useFetch";
 import Loader from "../components/base/Loader";
 import VideoFeatured from "../components/base/VideoFeatured";
 import spacex from "../images/spacex.png";
@@ -10,13 +10,12 @@ import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
 function Launch(props) {
-    const res = useFetch("https://api.spacexdata.com/v3/launches", []);
-
-    console.log("Launches fetched! --->>>", res.response);
+    const res = useContext(SpacexLaunchesContext);
+    console.log("Spacex context --->>>", res.response);
 
     if (!res.response) {
         return (
-            <div className="pt-64 pb-32">
+            <div className="h-screen pt-64">
                 <Loader className="mx-auto" />
             </div>
         );

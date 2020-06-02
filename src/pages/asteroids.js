@@ -49,7 +49,7 @@ function Page__asteroids() {
                     alt="Asteroid"
                 /> */}
                 <div
-                    class=" w-full h-64 bg-fixed my-20"
+                    className=" w-full h-64 bg-fixed my-20"
                     style={{
                         backgroundImage: `url(${asteroid})`,
                         backgroundPosition: "center",

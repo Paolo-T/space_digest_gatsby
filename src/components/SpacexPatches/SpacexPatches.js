@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import useFetch from "../../hooks/useFetch";
+import React, { useState, useEffect, useContext } from "react";
+import { SpacexLaunchesContext } from "../../context/SpacexLaunchesContext";
 import Loader from "../base/Loader";
 import Pagination from "../base/Pagination";
 import Patches from "./patches";
@@ -9,9 +9,8 @@ const START_ON_PAGE_NUMBER = 1;
 const PATCHES_PER_PAGE = 16;
 
 function SpacexPatches() {
-    const res = useFetch("https://api.spacexdata.com/v3/launches", []);
-
-    console.log("Launches fetched! --->>>", res.response);
+    const res = useContext(SpacexLaunchesContext);
+    console.log("Spacex context --->>>", res.response);
 
     const [currentPage, setCurrentPage] = useState(START_ON_PAGE_NUMBER);
     const [patchesToDisplay, setPatchesToDisplay] = useState();

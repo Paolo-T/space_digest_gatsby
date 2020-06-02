@@ -24,7 +24,7 @@ function Spacex() {
             <TransitionPageIn>
                 <div className="pt-20 md:pt-24">
                     <TransitionInview>
-                        <div className="container md:w-7/12 mx-auto text-center mb-6 md:mb-12">
+                        <div className="container md:w-8/12 mx-auto text-center mb-6 md:mb-12">
                             <h1 className="md:text-9xl text-5xl">SpaceX</h1>
                             <h3 className="md:w-8/12 mx-auto md:leading-tight mb-5">
                                 SpaceX designs, manufactures and launches
@@ -50,7 +50,7 @@ function Spacex() {
                                 alt="Mars Rover"
                             /> */}
                             <div
-                                class=" h-20 md:h-64 bg-fixed py-2 md:my-20"
+                                className=" h-20 md:h-64 bg-fixed py-2 md:my-20"
                                 style={{
                                     backgroundImage: `url(${spacex_logo})`,
                                     backgroundPosition: "center",
