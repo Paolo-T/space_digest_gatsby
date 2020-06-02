@@ -10,7 +10,6 @@ const PHOTOS_PER_PAGE = 15;
 const START_ON_PAGE_NUMBER = 1;
 
 function PhotosPage() {
-    console.log("Light", LightBoxOptions);
     const res = useFetch(
         "https://images-api.nasa.gov/search?q=launch&media_type=image",
         {}
