@@ -5,6 +5,7 @@ import RoverPhotos from "../components/roverPhotos/RoverPhotos";
 import nasa_logo from "../images/nasa_logo.svg";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import { SRLWrapper } from "simple-react-lightbox";
 // import curiosityRover from "../images/curiosityRover.jpg";
 // import MarsWeather from "../../components/MarsWeather";
 
@@ -41,15 +42,20 @@ function Nasa() {
                         </div>
                         <TransitionInview>
                             <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-16 md:mb-20 py-2">
-                                <div
-                                    className="h-8 md:h-64 bg-fixed md:my-6"
+                                <img
+                                    className="w-7/12 mx-auto rounded-sm pl-24 py-16"
+                                    src={nasa_logo}
+                                    alt={"nasa logo"}
+                                />
+                                {/* <div
+                                    className="h-20 md:h-64 bg-fixed md:my-6"
                                     style={{
                                         backgroundImage: `url(${nasa_logo})`,
                                         backgroundPosition: "center",
                                         backgroundSize: "contain",
                                         backgroundRepeat: "no-repeat",
                                     }}
-                                ></div>
+                                ></div> */}
                             </div>
                         </TransitionInview>
                     </div>

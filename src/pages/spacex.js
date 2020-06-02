@@ -43,13 +43,13 @@ function Spacex() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 mb-10 md:mb-16 md:mb-20 rounded-md md:py-10 ">
-                            {/* <img
-                                className="md:w-9/12 mx-auto md:pl-32"
+                        <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 mb-10 md:mb-16 md:mb-20 rounded-md ">
+                            <img
+                                className="md:w-9/12 mx-auto md:py-32"
                                 src={spacex_logo}
                                 alt="Mars Rover"
-                            /> */}
-                            <div
+                            />
+                            {/* <div
                                 className=" h-20 md:h-64 bg-fixed py-2 md:my-20"
                                 style={{
                                     backgroundImage: `url(${spacex_logo})`,
@@ -57,9 +57,10 @@ function Spacex() {
                                     backgroundSize: "contain",
                                     backgroundRepeat: "no-repeat",
                                 }}
-                            ></div>
+                            ></div> */}
                         </div>
                     </TransitionInview>
+
                     <TransitionInview>
                         <SpacexPatches />
                     </TransitionInview>

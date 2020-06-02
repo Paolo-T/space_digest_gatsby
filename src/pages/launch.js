@@ -8,6 +8,7 @@ import spacex from "../images/spacex.png";
 import Moment from "react-moment";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import { SRLWrapper } from "simple-react-lightbox";
 
 function Launch(props) {
     const res = useContext(SpacexLaunchesContext);
@@ -202,21 +203,22 @@ function Launch(props) {
                                         Launch Images
                                     </h2>
                                 </div>
-
-                                <div className="container grid gap-6 grid-cols-1 md:grid-cols-3 mt-10 md:mt-10 cursor-pointer">
-                                    {pageData[0].links.flickr_images.map(
-                                        (photo, i) => {
-                                            return (
-                                                <img
-                                                    className="object-cover object-center h-74 w-full rounded-sm"
-                                                    src={photo}
-                                                    key={i}
-                                                    alt="Mission Launch"
-                                                />
-                                            );
-                                        }
-                                    )}
-                                </div>
+                                <SRLWrapper>
+                                    <div className="container grid gap-6 grid-cols-1 md:grid-cols-3 mt-10 md:mt-10 cursor-pointer">
+                                        {pageData[0].links.flickr_images.map(
+                                            (photo, i) => {
+                                                return (
+                                                    <img
+                                                        className="object-cover object-center h-74 w-full rounded-sm"
+                                                        src={photo}
+                                                        key={i}
+                                                        alt="Mission Launch"
+                                                    />
+                                                );
+                                            }
+                                        )}
+                                    </div>
+                                </SRLWrapper>
                             </TransitionInview>
                         </>
                     ) : null}

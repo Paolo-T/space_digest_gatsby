@@ -5,6 +5,7 @@ import Loader from "../components/base/Loader";
 import SEO from "../components/seo";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import { SRLWrapper } from "simple-react-lightbox";
 
 function Media() {
     const res = useFetch(
@@ -47,11 +48,13 @@ function Media() {
                             <h2 className="inline-block md:w-w-64 mb-2 md:mb-10">
                                 Daily Astronomy Image
                             </h2>
-                            <img
-                                className="w-full mx-auto md:mb-12 rounded-sm cursor-pointer rounded-md"
-                                src={mediaData.url}
-                                alt={mediaData.title}
-                            />
+                            <SRLWrapper>
+                                <img
+                                    className="w-full mx-auto md:mb-12 rounded-sm cursor-pointer rounded-md"
+                                    src={mediaData.url}
+                                    alt={mediaData.title}
+                                />
+                            </SRLWrapper>
 
                             <div className="md:container mx-auto mt-4 md:mt-12 md:mt-16 md:mb-16 md:mb-20">
                                 <div className="md:flex pt-8 md:pt-10 pb-10 md:pb-16 px-4 md:px-32 text-left bg-secondary rounded-md">

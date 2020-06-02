@@ -5,6 +5,7 @@ import Moment from "react-moment";
 import chunkArray from "../../utils/chunkArray";
 import Pagination from "../base/Pagination";
 import Photos from "./Photos";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const PHOTOS_PER_PAGE = 15;
 const START_ON_PAGE_NUMBER = 1;
@@ -41,7 +42,11 @@ function RoverPhotos() {
     }, [res.response]);
 
     function renderPhotoPage(pageIndex) {
-        return <Photos items={photosToDisplay[pageIndex]} key={pageIndex} />;
+        return (
+            <SRLWrapper>
+                <Photos items={photosToDisplay[pageIndex]} key={pageIndex} />
+            </SRLWrapper>
+        );
     }
 
     const changePage = (pageNumber) => setCurrentPage(pageNumber);

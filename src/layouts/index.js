@@ -3,16 +3,20 @@ import React from "react";
 import Navigation from "../components/base/Navigation";
 import Footer from "../components/base/Footer";
 import { SpacexLaunchesProvider } from "../context/SpacexLaunchesContext";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function Layout({ children }) {
     return (
         <>
-            <Navigation />
             <SpacexLaunchesProvider>
-                <main>{children}</main>
-            </SpacexLaunchesProvider>
+                <SimpleReactLightbox>
+                    <Navigation />
 
-            <Footer />
+                    <main>{children}</main>
+
+                    <Footer />
+                </SimpleReactLightbox>
+            </SpacexLaunchesProvider>
         </>
     );
 }
