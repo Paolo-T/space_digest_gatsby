@@ -5,7 +5,6 @@ import Moment from "react-moment";
 import chunkArray from "../../utils/chunkArray";
 import Pagination from "../base/pagination";
 import Photos from "./photos";
-import RoverSelect from "./roverSelect";
 
 const PHOTOS_PER_PAGE = 15;
 const START_ON_PAGE_NUMBER = 1;
@@ -60,10 +59,17 @@ function RoverPhotos() {
             {photosToDisplay ? (
                 <div>
                     <div className="md:flex justify-between items-end">
-                        <div className="flex-grow z-50">
-                            <RoverSelect />
+                        <div className="md:px-8 md:w-7/12 mx-auto text-center md:text-left">
+                            <h2 className="mb-6 font-bold">
+                                Mars Rover Images
+                            </h2>
+                            <p className="">
+                                Select your favourite Mars Rover and cameras to
+                                display images from Mars
+                            </p>
                         </div>
-                        <div className="flex-grow flex justify-end">
+
+                        <div className="flex-grow flex justify-evenly md:justify-end">
                             <Pagination
                                 numberOfPages={photosToDisplay.length}
                                 onPageChange={changePage}

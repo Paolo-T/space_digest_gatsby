@@ -12,8 +12,6 @@ import TransitionInview from "../components/transitionInview";
 
 function Nasa() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } }); //Fade animation
-    const [selectRover, setSelectRover] = useState("curiosity");
-    const [selectCamera, setSelectCamera] = useState("NAVCAM");
 
     return (
         <Layout>
@@ -77,17 +75,7 @@ function Nasa() {
                                 </p>
                             </div>
                         </TransitionInview>
-                        <TransitionInview>
-                            <div className="px-8 md:w-7/12 mx-auto text-center mb-16 md:mb-20">
-                                <h2 className="mb-6 font-bold">
-                                    Mars Rover Images
-                                </h2>
-                                <p className="mb-10">
-                                    Select your favourite Mars Rover and cameras
-                                    to display images from Mars
-                                </p>
-                            </div>
-                        </TransitionInview>
+
                         <TransitionInview>
                             <RoverPhotos />
                         </TransitionInview>
