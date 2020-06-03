@@ -23,7 +23,7 @@ function RoverPhotos() {
         {}
     );
 
-    console.log("Photos fetched! --->>>", res.response);
+    // console.log("Photos fetched! --->>>", res.response);
 
     const [currentPage, setCurrentPage] = useState(START_ON_PAGE_NUMBER);
     const [photosToDisplay, setPhotosToDisplay] = useState();

@@ -9,7 +9,7 @@ function Media() {
         {}
     );
 
-    console.log("Media fetched! --->>>", res);
+    // console.log("Media fetched! --->>>", res);
 
     if (!res.response) {
         return (

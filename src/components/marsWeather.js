@@ -9,7 +9,7 @@ import marsLandscape from "../img/mars-landscape.svg";
 function MarsWeather() {
     const res = useFetch("/api/mars-weather/:weather", {});
 
-    console.log("Weather fetched! --->>>", res);
+    // console.log("Weather fetched! --->>>", res);
 
     if (!res.response) {
         return (
@@ -68,7 +68,7 @@ function MarsWeather() {
                 </div>
 
                 <div className="w-full flex flex-col sm:flex-row mx-auto md:py-8 md:bg-orange-100 md:rounded-md opacity-75 md:mt-0 py-8">
-                    {solData.map(data => {
+                    {solData.map((data) => {
                         return (
                             <div
                                 className="flex-1 md:text-xs py-5 px-4 md:px-0 text-left"

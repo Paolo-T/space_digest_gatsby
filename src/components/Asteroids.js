@@ -9,7 +9,7 @@ function Asteroids() {
         {}
     );
 
-    console.log("Asteroids fetched! --->>>", res);
+    // console.log("Asteroids fetched! --->>>", res);
 
     if (!res.response) {
         return (
@@ -20,8 +20,6 @@ function Asteroids() {
     }
 
     let { "2020-01-01": asteroidData } = res.response.near_earth_objects;
-
-    console.log(asteroidData);
 
     return (
         // Asteroids

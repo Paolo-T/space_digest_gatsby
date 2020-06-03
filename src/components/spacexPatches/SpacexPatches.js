@@ -10,7 +10,7 @@ const PATCHES_PER_PAGE = 16;
 
 function SpacexPatches() {
     const res = useContext(SpacexLaunchesContext);
-    console.log("Spacex context --->>>", res.response);
+    // console.log("Spacex context --->>>", res.response);
 
     const [currentPage, setCurrentPage] = useState(START_ON_PAGE_NUMBER);
     const [patchesToDisplay, setPatchesToDisplay] = useState();

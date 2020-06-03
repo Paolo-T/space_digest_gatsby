@@ -15,7 +15,6 @@
     },
     "rules": {
         "no-console": "off",
-        "quotes": [2, "single", { "avoidEscape": true }],
         "react-hooks/rules-of-hooks": "error"
     }
 }

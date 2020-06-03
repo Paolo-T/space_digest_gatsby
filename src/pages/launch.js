@@ -12,7 +12,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 function Launch(props) {
     const res = useContext(SpacexLaunchesContext);
-    console.log("Spacex context --->>>", res.response);
+    // console.log("Spacex context --->>>", res.response);
 
     if (!res.response) {
         return (

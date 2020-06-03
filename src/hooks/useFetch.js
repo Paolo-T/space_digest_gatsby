@@ -17,15 +17,13 @@ const useFetch = (url) => {
                 const json = await res.json();
                 setResponse(json);
                 setIsLoading(false);
-                console.log("Data Set!");
             } catch (error) {
                 setError(error);
                 console.error("Error:", error);
             }
         };
         fetchData();
-        console.log(" -- Cleaned useFetch subscriptions --");
-        return () => abortController.abort(); // Abort both fetches on unmount
+        return () => abortController.abort(); // Abort fetches on unmount
     }, []);
 
     return {

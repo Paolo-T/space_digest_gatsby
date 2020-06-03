@@ -3,5 +3,5 @@
 //     .default;
 
 // exports.wrapRooElement = ({ element }) => {
-//     return <GlobalContextProvider>{element}</GlobalContextProvider>;
+//     return {element};
 // };

@@ -17,13 +17,13 @@ function Navigation() {
                 <nav className="w-3/4 md:w-1/4 flex justify-between">
                     <Link
                         className="inline-block text-primary text-xl md:text-2xl leading-normal hover:text-black"
-                        to="nasa"
+                        to="/nasa"
                     >
                         Nasa
                     </Link>
                     <Link
                         className="inline-block text-primary text-xl md:text-2xl  leading-normal hover:text-black"
-                        to="spacex"
+                        to="/spacex"
                     >
                         SpaceX
                     </Link>

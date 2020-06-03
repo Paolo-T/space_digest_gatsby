@@ -6,8 +6,8 @@ function RoverSelect() {
     const [selectCamera, setSelectCamera] = useState({});
     const [selectRover, setSelectRover] = useState({});
 
-    console.log("selectCamera", selectCamera);
-    console.log("selectRover", selectRover);
+    // console.log("selectCamera", selectCamera);
+    // console.log("selectRover", selectRover);
 
     function reactSelectCustomTheme(theme) {
         return {
