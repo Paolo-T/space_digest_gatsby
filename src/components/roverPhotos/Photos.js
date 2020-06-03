@@ -28,7 +28,7 @@ function Photos({ items, src }) {
                     <animated.img
                         src={item.img_src}
                         key={item.id}
-                        className="object-cover object-center h-74 w-full rounded-md col-span-1 bg-gray-200"
+                        className="object-cover object-center h-74 w-full rounded col-span-1 bg-gray-200"
                         style={props}
                     />
                 );
