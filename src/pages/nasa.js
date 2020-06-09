@@ -43,7 +43,7 @@ function Nasa() {
                         <TransitionInview>
                             <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-16 md:mb-20 py-2">
                                 <img
-                                    className="w-7/12 mx-auto rounded pl-24 py-16"
+                                    className="w-7/12 mx-auto rounded-sm pl-24 py-16"
                                     src={nasa_logo}
                                     alt={"nasa logo"}
                                 />
