@@ -5,7 +5,6 @@ import RoverPhotos from "../components/roverPhotos/RoverPhotos";
 import nasa_logo from "../images/nasa_logo.svg";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import { SRLWrapper } from "simple-react-lightbox";
 // import curiosityRover from "../images/curiosityRover.jpg";
 // import MarsWeather from "../../components/MarsWeather";
 
