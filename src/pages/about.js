@@ -53,13 +53,13 @@ function AboutPage() {
                         </span>{" "}
                     </p>
                     <p className="md:w-2/4 block mt-6">P.</p>
-                    {/* <a
+                    <a
                         className="inline-block text-xl md:text-2xl underline mt-10"
                         rel="noopener noreferrer"
-                        href="mailto:webmaster@example.com"
+                        href="mailto:room01info@gmail.com"
                     >
-                        hi@spacedigest.live
-                    </a> */}
+                        room01info[at]gmail.com
+                    </a>
                 </div>
             </TransitionPageIn>
         </>
