@@ -6,7 +6,7 @@ import logo from "../images/logo.svg";
 function Header() {
     return (
         <section
-            className="mx-auto mb-8 md:mb-24 pt-6 md:py-10 mt-4 text-center"
+            className="mx-auto mb-8 md:mb-24 pt-6 md:py-10 mt-8 text-center"
             style={{ backgroundColor: "#f4f0ea" }}
         >
             <div className="w-9/12 md:w-7/12 mx-auto">

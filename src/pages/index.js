@@ -70,7 +70,6 @@ function IndexPage() {
                                 <Button
                                     width="32"
                                     btn_text="Here"
-                                    bgColor="primary"
                                     marginX="auto"
                                     link="/daily"
                                 />
