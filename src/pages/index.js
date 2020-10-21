@@ -9,6 +9,7 @@ import img_tile_2 from "../images/img_tile_2.svg";
 import { useSpring, animated } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import Button from "../components/base/Button";
 
 function IndexPage() {
     //Fade animation
@@ -32,17 +33,16 @@ function IndexPage() {
                 <div className="md:px-0 mx-auto pt-12">
                     <Hero />
 
-                    <TransitionInview>
-                        <FiftyFifty
-                            image={img_tile_1}
-                            title="Asteroids"
-                            text=" NeoWs (Near Earth Object Web Service) is a web service for
+                    <FiftyFifty
+                        image={img_tile_1}
+                        title="Asteroids"
+                        text=" NeoWs (Near Earth Object Web Service) is a web service for
                     near earth Asteroid information. With NeoWs we can display
                     Asteroids based on their closest approach date to Earth."
-                            btn_text="Asteroids nearby"
-                            link="/asteroids"
-                        />
-
+                        btn_text="Asteroids nearby"
+                        link="/asteroids"
+                    />
+                    <TransitionInview>
                         <FiftyFifty
                             image={img_tile_2}
                             title="Photo collection"
@@ -54,16 +54,26 @@ function IndexPage() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="bg-primary py-8 md:py-16 md:px-40 text-center mx-auto mt-6 mb-16 md:mb-0 cursor-pointer">
+                        <div
+                            className="bg-primary py-8 md:py-16 md:px-40 text-center mx-auto mt-6 mb-16 md:mb-0 cursor-pointer"
+                            style={{ backgroundColor: "#f4f0ea" }}
+                        >
                             <Link to="/daily">
                                 <h2 className="w-10/12 md:w-4/12 mx-auto">
                                     Daily media
                                 </h2>
                                 <p className="w-10/12 md:w-4/12 mx-auto">
                                     Discovery the beauties of the universe in
-                                    our daily astronomy Image or Video and{" "}
-                                    <span className="underline">here</span>
+                                    our daily astronomy Image or Video
                                 </p>
+
+                                <Button
+                                    width="32"
+                                    btn_text="Here"
+                                    bgColor="primary"
+                                    marginX="auto"
+                                    link="/daily"
+                                />
                             </Link>
                         </div>
                     </TransitionInview>
