@@ -43,7 +43,7 @@ function Spacex() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 mb-10 md:mb-16 md:mb-20 rounded-md ">
+                        <div className="w-full bg-secondary mt-10 sm:mt-12 mb-0 mb-10 md:mb-16 md:mb-20 rounded-md ">
                             <img
                                 className="md:w-9/12 mx-auto md:py-32"
                                 src={spacex_logo}

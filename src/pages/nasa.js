@@ -29,25 +29,27 @@ function Nasa() {
             />
             <TransitionPageIn>
                 <div className="mx-auto pt-20 md:pt-24">
-                    <div className="mb-12">
-                        <div className="w-9/12 mx-auto text-center mb-16">
-                            <h1 className="md:text-9xl text-5xl mb-5">NASA</h1>
-                            <h3 className="md:w-7/12 mx-auto md:leading-tight mb-1">
+                    <div className="py-16 bg-secondary">
+                        <div className="w-9/12 mx-auto text-center">
+                            <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
+                                NASA
+                            </h1>
+                            <p className="md:w-7/12 mb-1 mx-auto">
                                 The National Aeronautics and Space
                                 Administration (NASA) is an independent agency
                                 of the United States Federal Government
                                 responsible for the civilian space program, as
                                 well as aeronautics and aerospace research.
-                            </h3>
+                            </p>
                         </div>
-                        <TransitionInview>
-                            <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-16 md:mb-20 py-2">
+                        {/* <TransitionInview>
+                            <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-20 py-2">
                                 <img
                                     className="w-7/12 mx-auto rounded-sm pl-24 py-16"
                                     src={nasa_logo}
                                     alt={"nasa logo"}
                                 />
-                                {/* <div
+                                <div
                                     className="h-20 md:h-64 bg-fixed md:my-6"
                                     style={{
                                         backgroundImage: `url(${nasa_logo})`,
@@ -55,15 +57,15 @@ function Nasa() {
                                         backgroundSize: "contain",
                                         backgroundRepeat: "no-repeat",
                                     }}
-                                ></div> */}
+                                ></div>
                             </div>
-                        </TransitionInview>
+                        </TransitionInview> */}
                     </div>
 
                     <div className="px-8 md:w-9/12 mx-auto mb-10 mt-0 md:mt-20">
                         {/* <MarsWeather /> */}
                         <TransitionInview>
-                            <div className="md:container mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b-2 border-black text-left">
+                            <div className="md:container mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b border-black text-left">
                                 <h3 className="md:w-4/12 line-block flex-1 md:mb-8 md:mx-auto text-3xl">
                                     Mars rovers
                                 </h3>
