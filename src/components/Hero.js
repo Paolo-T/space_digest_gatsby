@@ -2,21 +2,23 @@ import React from "react";
 import VideoFeatured from "./base/VideoFeatured";
 import TransitionInview from "./TransitionInview";
 import logo from "../images/logo.svg";
+import img_tile_2 from "../images/img_tile_2.svg";
 
 function Header() {
     return (
         <section
-            className="mx-auto mb-8 md:mb-24 pt-6 md:py-10 mt-8 text-center"
+            className="smx-auto mb-8 md:mb-24 pt-6 md:py-10 mt-8 text-center flex px-56"
             style={{ backgroundColor: "#f4f0ea" }}
         >
-            <div className="w-9/12 md:w-7/12 mx-auto">
-                <h1 className="tracking-snug md:text-9xl text-5xl mb-4">
+            <div className="flex-1 mx-auto">
+                <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
                     Space Digest
                 </h1>
-                <h3 className="w-9/12 md:w-10/12 mx-auto md:leading-tight mb-4">
+                <h3 className="md:leading-tight mb-4">
                     Discover the beauties of the Universe
                 </h3>
             </div>
+            {/* <img className="w-100" src={img_tile_2} alt="spacex misson patch" /> */}
             {/* <TransitionInview>
                 <VideoFeatured
                     width="62vw"

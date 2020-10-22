@@ -9,12 +9,14 @@ function Button({
     textColor,
     hoverTextColor,
     marginX,
+    marginTop,
 }) {
     return (
         <button
-            className={`w-${
-                width ? width : "full"
-            } ? py-2 px-4 mt-8 rounded border border-black hover:bg-primary hover:border-transparent hover:border-black  bg-${
+            className={`w-${width ? width : "full"} mt-${
+                marginTop ? marginTop : 20
+            }
+            py-2 px-4  rounded border border-black hover:bg-primary hover:border-transparent hover:border-black  bg-${
                 bgColor ? bgColor : "transparent"
             }
             text-${textColor ? textColor : "black"}

@@ -15,7 +15,7 @@ function FiftyFifty({
 }) {
     return (
         <div
-            className={`px-8 lg:container mx-auto flex flex-col md:flex-row mt-8 md:mt-12 md:mt-24 md:mb-32
+            className={`px-8 lg:container mx-auto flex flex-col md:flex-row mt-8 md:mt-24 md:mb-32
                 ${width ? width : "sm:w-8/12 md:w-11/12 xl:w-8/12"}
                 ${padding ? padding : " "}
                 ${reverse && "md:flex-row-reverse"}`}
@@ -26,7 +26,7 @@ function FiftyFifty({
                     ${reverse ? "md:mr-0 md:ml-20" : "md:mr-20"}`}
             >
                 <img
-                    className={`inline w-12 md:w-full md:h-full rounded-md
+                    className={`inline w-12 h-12 md:w-full md:h-full rounded-md
                     ${padding_img && padding_img} `}
                     src={image ? image : ""}
                     alt="spacex misson patch"
@@ -37,7 +37,7 @@ function FiftyFifty({
                 </h2>
             </div>
             <div className="flex-1 mb-12 md:my-0">
-                <div className="h-full md:flex flex-col justify-between">
+                <div className="h-full md:flex flex-col">
                     <div>
                         <h2 className="hidden md:block font-title font-bold md:inline-block mt-10">
                             {title}
