@@ -16,19 +16,19 @@ function Navigation() {
 
                 <nav className="w-3/4 md:w-1/4 flex justify-between">
                     <Link
-                        className="inline-block text-xl md:text-2xl leading-normal hover:text-black"
+                        className="inline-block text-xl md:text-2xl leading-normal font-bold hover:text-black"
                         to="/nasa"
                     >
                         Nasa
                     </Link>
                     <Link
-                        className="inline-block text-xl md:text-2xl  leading-normal hover:text-black"
+                        className="inline-block text-xl md:text-2xl font-bold leading-normal hover:text-black"
                         to="/spacex"
                     >
                         SpaceX
                     </Link>
                     <Link
-                        className="inline-block text-xl md:text-2xl leading-normal hover:text-black"
+                        className="inline-block text-xl md:text-2xl font-bold leading-normal hover:text-black"
                         to="/photos"
                     >
                         Photos

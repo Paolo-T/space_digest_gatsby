@@ -7,7 +7,7 @@ import img_tile_2 from "../images/img_tile_2.svg";
 function Header() {
     return (
         <section
-            className="smx-auto mb-8 md:mb-24 pt-6 md:py-10 mt-8 text-center flex px-56"
+            className="smx-auto mb-8 md:mb-24 pt-6 py-10 mt-8 text-center flex md:px-56"
             style={{ backgroundColor: "#f4f0ea" }}
         >
             <div className="flex-1 mx-auto">

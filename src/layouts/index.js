@@ -12,7 +12,7 @@ function Layout({ children }) {
                 <SimpleReactLightbox>
                     <Navigation />
 
-                    <main>{children}</main>
+                    <main className="max-w-screen-xxl mx-auto">{children}</main>
 
                     <Footer />
                 </SimpleReactLightbox>

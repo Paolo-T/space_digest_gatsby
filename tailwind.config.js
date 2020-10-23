@@ -11,15 +11,15 @@ module.exports = {
             md: "768px",
             lg: "1024px",
             xl: "1280px",
+            xxl: "2200px",
         },
         colors: {
             transparent: "transparent",
-
-            black: "#0d0d0d",
+            black: "#0f0f0f",
             white: "#fff",
 
             primary: "#86fcf4",
-            secondary: "#f4f0ea",
+            secondary: "#f4f0eb",
             tertiary: "#efba1f",
 
             gray: {
@@ -188,7 +188,7 @@ module.exports = {
             full: "9999px",
         },
         borderWidth: {
-            default: "1px",
+            default: "0.3px",
             "0": "0",
             "2": "2px",
             "4": "4px",
