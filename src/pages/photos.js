@@ -25,23 +25,28 @@ function Page__photosPage() {
             />
 
             <TransitionPageIn>
-                <div className="mx-auto pt-24 mb-12">
-                    <div className="w-9/12 mx-auto text-center mb-12">
-                        <h2 className="mb-3 md:text-7xl text-5xl">
-                            Photo collection
-                        </h2>
-                        <h3 className="md:w-3/5 mx-auto md:leading-tight mb-1">
+                <div className="mx-auto pt-20 md:pt-24">
+                    <div className="py-10 bg-primary">
+                        <div className="w-9/12 mx-auto text-center">
+                            <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
+                                Photo collection
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div className="w-9/12 mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b border-gray-400 text-left pb-10">
+                        <p className="md:w-4/12 line-block flex-1 md:mx-auto text-lg font-bold uppercase">
+                            Mars rovers
+                        </p>
+                        <p className="md:w-3/5 mx-auto md:leading-tight">
                             NASA.gov brings you the latest images, videos and
                             news from America's space agency. Get the latest
-                            updates on NASA missions, and learn about the quest
-                            to reveal the unknown and benefit all humankind.
-                        </h3>
+                            updates on NASA<br></br>missions, and learn about
+                            the quest to reveal the unknown and benefit all
+                            humankind.
+                        </p>
                     </div>
-                    {/* <img
-                        className="container mx-auto mb-10 md:mb-16"
-                        src={moonlanding}
-                        alt="Moon Landing"
-                    /> */}
+
                     <div className="container">
                         <div className="w-full mx-auto mb-32 mt-20">
                             <PhotoCollection />

@@ -6,12 +6,9 @@ import img_tile_2 from "../images/img_tile_2.svg";
 
 function Header() {
     return (
-        <section
-            className="smx-auto mb-8 md:mb-24 pt-6 py-10 mt-8 text-center flex md:px-56"
-            style={{ backgroundColor: "#f4f0ea" }}
-        >
+        <section className="smx-auto mb-8 md:mb-24 pt-10 pb-10 mt-10 text-center flex md:px-56 bg-primary">
             <div className="flex-1 mx-auto">
-                <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
+                <h1 className="tracking-snug text-5xl md:text-8xl mb-4">
                     Space Digest
                 </h1>
                 <h3 className="md:leading-tight mb-4">

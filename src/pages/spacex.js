@@ -1,7 +1,6 @@
 import React from "react";
 import SEO from "../components/seo";
 import SpacexPatches from "../components/SpacexPatches/SpacexPatches";
-import spacex_logo from "../images/spacex_logo.svg";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -23,7 +22,7 @@ function Spacex() {
             />
             <TransitionPageIn>
                 <div className="mx-auto pt-20 md:pt-24">
-                    <div className="py-10 bg-secondary">
+                    <div className="py-10 bg-primary">
                         <div className="w-9/12 mx-auto text-center">
                             <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
                                 SpaceX

@@ -16,7 +16,7 @@ function Button({
             className={`w-${width ? width : "full"} mt-10 md:mt-${
                 marginTop ? marginTop : 20
             }
-            py-2 px-4  rounded border border-black hover:bg-primary hover:border-transparent hover:border-black  bg-${
+            py-2 px-4  rounded border border-black hover:bg-tertiary hover:border-transparent hover:border-black  bg-${
                 bgColor ? bgColor : "transparent"
             }
             text-${textColor ? textColor : "black"}

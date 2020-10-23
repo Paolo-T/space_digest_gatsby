@@ -29,30 +29,12 @@ function Nasa() {
             />
             <TransitionPageIn>
                 <div className="mx-auto pt-20 md:pt-24">
-                    <div className="py-16 bg-secondary">
+                    <div className="py-10 bg-primary">
                         <div className="w-9/12 mx-auto text-center">
                             <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
                                 NASA
                             </h1>
                         </div>
-                        {/* <TransitionInview>
-                            <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-20 py-2">
-                                <img
-                                    className="w-7/12 mx-auto rounded-sm pl-24 py-16"
-                                    src={nasa_logo}
-                                    alt={"nasa logo"}
-                                />
-                                <div
-                                    className="h-20 md:h-64 bg-fixed md:my-6"
-                                    style={{
-                                        backgroundImage: `url(${nasa_logo})`,
-                                        backgroundPosition: "center",
-                                        backgroundSize: "contain",
-                                        backgroundRepeat: "no-repeat",
-                                    }}
-                                ></div>
-                            </div>
-                        </TransitionInview> */}
                     </div>
 
                     <div className="px-8 md:w-9/12 mx-auto mb-10 mt-0 md:mt-20">

@@ -47,6 +47,13 @@ module.exports = {
                 ],
             },
         },
+        {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [`Avenir\:300, 400, 700, 800`],
+                display: "swap",
+            },
+        },
         `gatsby-plugin-offline`,
     ],
 };

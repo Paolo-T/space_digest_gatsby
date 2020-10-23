@@ -62,10 +62,10 @@ function IndexPage() {
                                 <h2 className="w-10/12 md:w-4/12 mx-auto">
                                     Daily media
                                 </h2>
-                                <p className="w-10/12 md:w-4/12 mx-auto">
+                                {/* <p className="w-10/12 md:w-4/12 mx-auto">
                                     Discovery the beauties of the universe in
                                     our daily astronomy Image or Video
-                                </p>
+                                </p> */}
 
                                 <Button
                                     link="/daily"

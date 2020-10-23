@@ -46,11 +46,11 @@ function Launch(props) {
                 title="Spacex launches"
             />
             <TransitionPageIn>
-                <div className="mx-auto pt-24 mb-16 md:mb-12 md:pt-32 md:mb-40">
+                <div className="mx-auto pt-24 mb-16 md:pt-32 md:mb-40">
                     <TransitionInview>
                         <div className="container md:flex md:flex-row-reverse items-end">
                             <Link
-                                className="order-first block text-black text-xl md:text-2xl underline hover:color-teal-300 mb-4 md:mb-10"
+                                className="order-first block text-black text-xl md:text-2xl underline hover:color-tertiary mb-4 md:mb-10"
                                 to="/spacex"
                             >
                                 Back
