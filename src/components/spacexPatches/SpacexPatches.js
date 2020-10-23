@@ -30,7 +30,7 @@ function SpacexPatches() {
     return (
         <>
             {patchesToDisplay ? (
-                <div className="container mb-16 md:mb0">
+                <div className="container mt-32 mb-16 md:mb0">
                     <div className="container md:flex justify-between items-end mb-8 md:mb-12">
                         <h2 className=" inline-block w-full">
                             Mission Patches

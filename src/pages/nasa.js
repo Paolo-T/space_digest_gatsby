@@ -34,13 +34,6 @@ function Nasa() {
                             <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
                                 NASA
                             </h1>
-                            <p className="md:w-7/12 mb-1 mx-auto">
-                                The National Aeronautics and Space
-                                Administration (NASA) is an independent agency
-                                of the United States Federal Government
-                                responsible for the civilian space program, as
-                                well as aeronautics and aerospace research.
-                            </p>
                         </div>
                         {/* <TransitionInview>
                             <div className="w-full bg-primary mt-10 sm:mt-12 mb-0 md:mb-20 py-2">
@@ -65,12 +58,25 @@ function Nasa() {
                     <div className="px-8 md:w-9/12 mx-auto mb-10 mt-0 md:mt-20">
                         {/* <MarsWeather /> */}
                         <TransitionInview>
-                            <div className="md:container mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b border-gray-400 text-left">
+                            <div className="w-11/12 mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-10 text-left">
+                                <p className="md:w-4/12 line-block flex-1 md:mb-8 md:mx-auto text-lg font-bold uppercase">
+                                    Nasa
+                                </p>
+                                <p className="md:w-8/12 mb-1 mx-auto">
+                                    The National Aeronautics and Space
+                                    Administration (NASA) is an independent
+                                    agency of the United States Federal
+                                    Government responsible for the civilian
+                                    space program, as well as aeronautics and
+                                    aerospace research.
+                                </p>
+                            </div>
+                            <div className="w-11/12 mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b border-gray-400 text-left">
                                 <p className="md:w-4/12 line-block flex-1 md:mb-8 md:mx-auto text-lg font-bold uppercase">
                                     Mars rovers
                                 </p>
 
-                                <p className="md:w-7/12 mb-10 mx-auto">
+                                <p className="md:w-8/12 mb-10 mx-auto">
                                     Spirit and Opportunity landed on Mars
                                     January 3 and January 24, 2004 PST (Jan. 4
                                     and Jan. 25 UTC). Both rovers lived well
