@@ -55,15 +55,15 @@ function IndexPage() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="bg-secondary py-8 md:py-16 md:px-40 text-center mx-auto mt-6 mb-16 md:mb-0 cursor-pointer">
+                        <div className="bg-secondary py-8 md:py-16 md:px-40 text-center mx-auto mt-0 md:mt-6 mb-16 md:mb-0 cursor-pointer">
                             <Link to="/daily">
                                 <h2 className="w-10/12 md:w-4/12 mx-auto">
                                     Daily media
                                 </h2>
-                                {/* <p className="w-10/12 md:w-4/12 mx-auto">
+                                <p className="w-10/12 md:w-4/12 mx-auto">
                                     Discovery the beauties of the universe in
                                     our daily astronomy Image or Video
-                                </p> */}
+                                </p>
 
                                 <Button
                                     link="/daily"

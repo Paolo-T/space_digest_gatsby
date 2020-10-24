@@ -26,13 +26,13 @@ function FiftyFifty({
                     ${reverse ? "md:mr-0 md:ml-20" : "md:mr-20"}`}
             >
                 <img
-                    className={`inline w-11 h-11 md:w-full md:h-full rounded-md
+                    className={`inline w-11 h-11 md:w-full md:h-full rounded-md mb-8 md:mb-0
                     ${padding_img && padding_img} `}
                     src={image ? image : ""}
                     alt="spacex misson patch"
                 />
                 {/* Apperars on mobile */}
-                <h2 className="block md:hidden text-3xl font-bold inline md:inline-block mt-10 ml-5">
+                <h2 className="block md:hidden text-3xl font-bold inline md:inline-block  md:mt-10 md:ml-5">
                     {title}
                 </h2>
             </div>
