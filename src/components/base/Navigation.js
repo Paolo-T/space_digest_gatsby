@@ -5,36 +5,35 @@ import { Link } from "gatsby";
 function Navigation() {
     return (
         <header className="w-full fixed bg-white z-10">
-            <div className="w-10/12 md:container mx-auto flex justify-between py-4 md:pt-6 ">
-                <Link className="" to="/">
-                    <img
-                        className="w-8 md:w-12 mr-8 md:mr-4"
-                        src={logo}
-                        alt="nasa-logo"
-                    />
+            <nav className="w-9/12 md:container mx-auto flex justify-between items-center py-4 md:pt-6 ">
+                <Link
+                    className="inline-block text-xl md:text-xl leading-normal font-extrabold hover:text-black"
+                    to="/"
+                >
+                    Home
                 </Link>
-
-                <nav className="w-3/4 md:w-1/4 flex justify-between">
-                    <Link
-                        className="inline-block text-xl md:text-2xl leading-normal font-bold hover:text-black"
-                        to="/nasa"
-                    >
-                        Nasa
-                    </Link>
-                    <Link
-                        className="inline-block text-xl md:text-2xl font-bold leading-normal hover:text-black"
-                        to="/spacex"
-                    >
-                        SpaceX
-                    </Link>
-                    <Link
-                        className="inline-block text-xl md:text-2xl font-bold leading-normal hover:text-black"
-                        to="/photos"
-                    >
-                        Photos
-                    </Link>
-                </nav>
-            </div>
+                <Link
+                    className="inline-block text-xl md:text-xl leading-normal font-extrabold hover:text-black"
+                    to="/nasa"
+                >
+                    Nasa
+                </Link>
+                <Link className="" to="/">
+                    <img className="w-8 md:w-12" src={logo} alt="nasa-logo" />
+                </Link>
+                <Link
+                    className="inline-block text-xl md:text-xl font-extrabold leading-normal hover:text-black"
+                    to="/spacex"
+                >
+                    SpaceX
+                </Link>
+                <Link
+                    className="inline-block text-xl md:text-xl font-extrabold leading-normal hover:text-black"
+                    to="/photos"
+                >
+                    Photos
+                </Link>
+            </nav>
         </header>
     );
 }

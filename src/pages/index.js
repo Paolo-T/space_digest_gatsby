@@ -41,7 +41,6 @@ function IndexPage() {
                             text="Spirit and Opportunity found evidence for past wet conditions that possibly could have supported microbial life."
                             btn_text="Rover pictures from Mars"
                             link="/nasa"
-                            padding_img="md:py-8"
                             background={true}
                         />
 
@@ -51,7 +50,6 @@ function IndexPage() {
                             text="The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets."
                             btn_text="More about SpaceX"
                             link="/spacex"
-                            padding_img="md:py-8"
                             background={true}
                         />
                     </TransitionInview>
@@ -85,6 +83,7 @@ function IndexPage() {
                     Asteroids based on their closest approach date to Earth."
                         btn_text="Asteroids nearby"
                         link="/asteroids"
+                        padding_img="md:py-8"
                     />
                     <TransitionInview>
                         <FiftyFifty
@@ -94,6 +93,7 @@ function IndexPage() {
                             btn_text="Photos"
                             link="/photos"
                             reverse={true}
+                            padding_img="md:py-8"
                         />
                     </TransitionInview>
                 </div>

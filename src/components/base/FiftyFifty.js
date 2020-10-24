@@ -26,7 +26,7 @@ function FiftyFifty({
                     ${reverse ? "md:mr-0 md:ml-20" : "md:mr-20"}`}
             >
                 <img
-                    className={`inline w-12 h-12 md:w-full md:h-full rounded-md
+                    className={`inline w-11 h-11 md:w-full md:h-full rounded-md
                     ${padding_img && padding_img} `}
                     src={image ? image : ""}
                     alt="spacex misson patch"
