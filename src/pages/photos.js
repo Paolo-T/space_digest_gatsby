@@ -25,7 +25,7 @@ function Page__photosPage() {
             />
 
             <TransitionPageIn>
-                <div className="mx-auto pt-20 md:pt-24">
+                <div className="mx-auto pt-12 md:pt-24">
                     <div className="py-10 bg-primary">
                         <div className="w-9/12 mx-auto text-center">
                             <h1 className="tracking-snug text-5xl md:text-7xl mb-4">
@@ -34,8 +34,8 @@ function Page__photosPage() {
                         </div>
                     </div>
 
-                    <div className="w-9/12 mx-auto md:flex mt-16 md:mt-32 mb-12 md:mb-24 border-b border-gray-400 text-left pb-10">
-                        <p className="md:w-4/12 line-block flex-1 md:mx-auto text-lg font-bold uppercase">
+                    <div className="w-10/12 md:w-9/12 mx-auto md:flex mt-16 md:mt-32 mb-0 md:mb-24 border-b border-gray-400 text-left pb-10">
+                        <p className="md:w-4/12 line-block flex-1 md:mx-auto text-lg font-bold uppercase mb-4 m:mb-0">
                             Mars rovers
                         </p>
                         <p className="md:w-3/5 mx-auto md:leading-tight">
@@ -48,7 +48,7 @@ function Page__photosPage() {
                     </div>
 
                     <div className="container">
-                        <div className="w-full mx-auto mb-32 mt-20">
+                        <div className="w-full mx-auto mb-32 mt-6 md:mt-20">
                             <PhotoCollection />
                         </div>
                     </div>
